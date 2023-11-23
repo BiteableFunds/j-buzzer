@@ -17,7 +17,7 @@ h1 {
   padding: 5vw;
   font-family: "Gabarito", sans-serif;
   width: 100%;
-  height: 200px;
+  min-height: 200px;
 }
 
 #bzr:hover {
