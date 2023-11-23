@@ -1,6 +1,6 @@
 html {
   background-color: #1155ccff;
-  height: 100vh;
+  min-height: 100%;
 }
 
 h1 {
