@@ -10,14 +10,13 @@ h1 {
 }
 
 #bzr {
-  display: block;
   background-color: white;
   color: #1155ccff;
   font-size: 300px;
   padding: 5vw;
   font-family: "Gabarito", sans-serif;
   width: 100%;
-  min-height: 200px;
+  height: 200px;
 }
 
 #bzr:hover {
