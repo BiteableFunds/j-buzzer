@@ -1,7 +1,7 @@
 var buzzer = document.getElementById("bzr");
-var buzzerdisplay = document.getElementById("bzrdisplay").innerHTML;
+var buzzerdisplay = document.getElementById("bzrdisplay");
 
 function buzzerPress() {
   let timestamp = Date.now();
-  buzzerdisplay = 'buzzed in at: ' + timestamp;
+  buzzerdisplay.innerHTML = `buzzed in at: ${timestamp}`;
 }
