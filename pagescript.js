@@ -1,5 +1,6 @@
 var buzzer = document.getElementById("bzr")
 var buzzerdisplay = document.getElementById("bzrdisplay")
+var selectedTeam = 0
 
 function setDisplay(timestamp) {
   var date = new Date(timestamp).toLocaleTimeString("en-US")
@@ -24,3 +25,5 @@ function bzrPress(team) {
   setDisplay(unixtimestamp);
   sendTimeData(team, unixtimestamp);
 }
+
+buzzer.addEventListener("click", bzrPress(selectedTeam));
